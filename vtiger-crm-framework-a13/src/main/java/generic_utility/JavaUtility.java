@@ -16,4 +16,8 @@ public class JavaUtility {
 		
 		return currentTime;
 	}
+	
+	public static String getRandomString() {
+	    return "Test" + System.currentTimeMillis();
+	}
 }
